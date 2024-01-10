@@ -1,6 +1,6 @@
 # Starta från en base image som innehåller JDK 8
 #FROM openjdk:8-jdk-alpine
-historyFROM openjdk:21-jdk
+FROM openjdk:21-jdk
 #Sätt arbetsmappen (där vi jobbar) till / app
 WORKDIR /app
 
